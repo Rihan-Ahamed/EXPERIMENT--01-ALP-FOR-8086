@@ -130,6 +130,9 @@ HLT
 ~~~
 ## output
 
+<img width="1390" height="1082" alt="Screenshot 2026-05-22 154947" src="https://github.com/user-attachments/assets/4e941c84-dbba-46f3-a59f-2a74346bcaef" />
+
+
 ## NAND alp
 ~~~
 Mov AX,1072H
