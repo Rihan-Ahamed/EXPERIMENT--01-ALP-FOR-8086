@@ -77,25 +77,93 @@ Running The Emulator (emu8086) Intro 8086 Microprocessor Emulator, also known as
 
 ## Programs for arithmetic  operations
 
-## Addition  of 8 bit ALP 
+## Addition  of 16 bit ALP 
+~~~
+Mov AX,1072H
+MOV BX,3452H
+ADD AX,BX
+HLT
+~~~
 
 
 
 ## Output  
- 
+ <img width="1381" height="1108" alt="Screenshot 2026-05-22 153942" src="https://github.com/user-attachments/assets/d2704ca5-1a84-4c12-bd2f-f7dd0455bf06" />
+
 ## Subtraction   of 8 bit numbers  ALP 
- 
+ ~~~
+Mov AX,1072H
+MOV BX,3452H
+SUB AX,BX
+HLT
+~~~
 ## Output  
+<img width="1394" height="1090" alt="Screenshot 2026-05-22 154102" src="https://github.com/user-attachments/assets/5ca98082-19db-4d87-8a44-9041f1567c75" />
+
 ## Multiplication alp 
+~~~
+Mov AX,1072H
+MOV BX,3452H
+MUL BX
+HLT
+~~~
  ## Output  
+<img width="1388" height="1081" alt="Screenshot 2026-05-22 154351" src="https://github.com/user-attachments/assets/8695cd6f-e565-434c-bce8-46fabdb06f30" />
 
 
 ## Division alp 
-
+~~~
+Mov AX,1072H
+MOV BX,3452H
+DIV BX
+HLT
+~~~
 ## Output  
+<img width="1388" height="1084" alt="Screenshot 2026-05-22 154512" src="https://github.com/user-attachments/assets/51b18b18-4197-4f5f-ad6a-2fc0ffdad563" />
+
+## AND alp
+~~~
+Mov AX,1072H
+MOV BX,3452H
+AND AX,BX
+HLT
+~~~
+## output
+
+## NAND alp
+~~~
+Mov AX,1072H
+NOT AX
+HLT
+~~~
+## output
+<img width="1397" height="1081" alt="Screenshot 2026-05-22 155120" src="https://github.com/user-attachments/assets/d74f40f7-e39d-4c7a-a345-f8ff7c70ad03" />
+
+## OR alp
+~~~
+Mov AX,1072H
+MOV BX,3452H
+OR AX,BX
+HLT
+~~~
+
+## output
+<img width="1417" height="1080" alt="Screenshot 2026-05-22 154703" src="https://github.com/user-attachments/assets/e2f3767e-01fd-4e8e-a83b-35e21d86e0d1" />
+
+## XOR alp
+~~~
+Mov AX,1072H
+MOV BX,3452H
+XOR AX,BX
+HLT
+~~~
+
+## output
+<img width="1389" height="1066" alt="Screenshot 2026-05-22 154827" src="https://github.com/user-attachments/assets/737204c9-f491-429f-8aad-c88571df44ea" />
 
 
 ## Result :
+The execution of ALP on fundamental arithmetic and logical operations is successfully completed.
  
 
 
